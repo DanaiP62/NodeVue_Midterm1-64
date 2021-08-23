@@ -10,7 +10,7 @@
       </p>
       <div v-for="user in users" v-bind:key="user.id">
         <p>id: {{ user.id }}</p>
-        <p>ชื่อ: {{ user.name }} - {{ user.lastname }}</p>
+        <p>ชื่อ: {{ user.name }} </p>
         <p>ราคา: {{ user.email }}</p>
         <p>หมายเลขผลิตภันฑ์:{{ user.password }}</p>
         <p>
